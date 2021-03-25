@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  font-family: serif;
+}
+
+.todo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 750px;
+  height: 530px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 1px 2px 20px #f3f3f3;
+          box-shadow: 1px 2px 20px #f3f3f3;
+  border-radius: 10px;
+  border: 1px solid #f4f6f8 .todo __sidebar;
+  border-background-color: #f4f6f8;
+  border-width: 200px;
+  border-height: 100%;
+  border-border-right: 1px solid #f1f1f1;
+}
